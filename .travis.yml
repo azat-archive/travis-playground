@@ -1,0 +1,7 @@
+os:
+  - osx
+sudo: false
+osx_image: xcode8.2
+
+script:
+  - travis_wait sleep $((15 * 60))
